@@ -3,7 +3,7 @@
 ## Table of Contents
 
 Project Structure
-# # Data Layer
+##  Data Layer
 api: Contains API service definitions using Retrofit.
 di: Dependency injection setup using Dagger-Hilt.
 model: Data models and mappers.
@@ -13,7 +13,7 @@ repository: Implementation of repository interfaces.
 model: Domain models.
 repository: Repository interfaces.
 usecase: Use cases encapsulating specific business logic.
-# # Presentation Layer
+## Presentation Layer
 components: UI components.
 screen: Composables representing different screens.
 uievent: UI events handled by ViewModels.
