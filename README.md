@@ -6,25 +6,6 @@ Clean Architecture
 MVVM
 
 Project Structure
-
-├── data
-│   ├── api
-│   ├── di
-│   ├── model
-│   ├── persistence
-│   └── repository
-├── domain
-│   ├── model
-│   ├── repository
-│   └── usecase
-├── presentation
-│   ├── components
-│   ├── screen
-│   ├── uievent
-│   └── uistate
-└── core
-    ├── navigation
-
 # Data Layer
 api: Contains API service definitions using Retrofit.
 di: Dependency injection setup using Dagger-Hilt.
