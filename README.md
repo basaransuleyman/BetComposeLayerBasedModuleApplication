@@ -4,27 +4,27 @@
 
 Project Structure
 ##  Data Layer
-api: Contains API service definitions using Retrofit.
-di: Dependency injection setup using Dagger-Hilt.
-model: Data models and mappers.
-persistence: Room database setup and DAO definitions.
+- api: Contains API service definitions using Retrofit.
+- di: Dependency injection setup using Dagger-Hilt.
+- model: Data models and mappers.
+- persistence: Room database setup and DAO definitions.
 repository: Implementation of repository interfaces.
 ##  Domain Layer
-model: Domain models.
-repository: Repository interfaces.
-usecase: Use cases encapsulating specific business logic.
+- model: Domain models.
+- repository: Repository interfaces.
+- usecase: Use cases encapsulating specific business logic.
 ## Presentation Layer
-components: UI components.
-screen: Composables representing different screens.
-uievent: UI events handled by ViewModels.
-uistate: UI state managed by ViewModels.
+- components: UI components.
+- screen: Composables representing different screens.
+- uievent: UI events handled by ViewModels.
+- uistate: UI state managed by ViewModels.
 
 # Dependencies
-Retrofit: For network calls.
-Room: For local database.
-Dagger-Hilt: For dependency injection.
-Kotlin Symbol Processing (KSP): For code generation.
-Jetpack Compose: For UI.
+- Retrofit: For network calls.
+- Room: For local database.
+- Dagger-Hilt: For dependency injection.
+- Kotlin Symbol Processing (KSP): For code generation.
+- Jetpack Compose: For UI.
 
  
 # Testing
