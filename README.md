@@ -2,9 +2,6 @@
 
 ## Table of Contents
 
-Clean Architecture
-MVVM
-
 Project Structure
 # Data Layer
 api: Contains API service definitions using Retrofit.
